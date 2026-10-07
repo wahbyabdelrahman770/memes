@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Memes</title>
+
+    <link rel="stylesheet" href="CSS/modified-bootstrap.css">
+</head>
+<body class="d-flex flex-column align-items-center">
+
+    <div class="w-90 mx-auto mt-5 d-flex flex-column align-items-center row-gap-3">
+        <h1 class="text-center">Enter a number from 0 to 99</h1>
+        <form class="w-100 d-flex flex-column align-items-center">
+            <input type="text" class="w-50 form-control mb-3">
+            <div>
+                <button type="submit" class="btn btn-success">Show Meme</button>
+                <button type="button" class="btn btn-danger">Clear</button>
+            </div>
+        </form>
+        <h1 class="invalidInput d-none text-center">Please Enter a Valid Number</h1>
+    </div>
+
+    <div class="meme my-4 d-none flex-column align-items-center row-gap-3"></div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
